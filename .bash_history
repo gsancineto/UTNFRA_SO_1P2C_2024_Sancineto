@@ -711,3 +711,77 @@ chmod -x RTA_SCRIPT_Examen_20241011/Punto_C.sh
 git add .
 git commit -m "add: punto_b falta resolver el validar.txt"
 git push
+cp /home/vagrant/.bash_history ./
+ll
+git add .
+git commit -m "add: se agrega history de nuevo, se perdio?"
+git push
+cd ..
+logout
+cd repogit/
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+ll
+rm -r validar.txt 
+ll
+./reset_punto_c.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+chmod +x UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+sudo tree /Examenes-UTN/
+./reset_punto_c.sh 
+sudo tree /Examenes-UTN/
+ls -l /Examenes-UTN/
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo rm -r /Examenes-UTN/
+chmod +x UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh
+./reset_punto_c.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+tree /Examenes-UTN/
+ls -l /Examenes-UTN/
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh 
+sudo rm -r /Examenes-UTN/
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+ls -l /Examenes-UTN/
+sudo tree /Examenes-UTN/
+ll
+./reset_punto_c.sh 
+ll
+ls -l /Examenes-UTN/
+sudo rm -r /Examenes-UTN/
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+sudo tree /Examenes-UTN/
+ll
+cat validar.txt 
+pwd
+apropos home
+sudo rm -r /Examenes-UTN/
+./reset_punto_c.sh 
+vim reset_punto_c.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+apropos user
+man pwd
+apropos directory
+cat /etc/passwd
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/passwd | grep whoami
+cat /etc/passwd | grep $(whoami)
+cat /etc/passwd | grep $(whoami) | awk -F ':' '{print $4}'
+cat /etc/passwd | grep $(whoami) | awk -F ':' '{print $6}'
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh
+sudo tree /Examenes-UTN/
+sudo cat /Examenes-UTN/alumno_1/validar.txt
+sudo cat /Examenes-UTN/alumno_2/validar.txt
+sudo cat /Examenes-UTN/alumno_3/validar.txt
+sudo cat /Examenes-UTN/profesores/validar.txt
+cd UTNFRA_SO_1P2C_2024_Sancineto/
+git add .
+history -a
+ll

@@ -28,7 +28,9 @@ sudo chown ${PREFIJO}P1.${PREFIJO}gProfesores /Examenes-UTN/profesores
 
 #loguearse en cada usuario y crear un validar.txt que saque un whoami en cada carpeta
 for i in {1..3}; do
-	sudo su -l ${PREFIJO}A$i -c "whoami" | sudo tee -a $(pwd)/validar.txt > /dev/null
+	HOME=$(cat /etc/passwd | grep ${PREFIJO}A$i | awk -F ':' '{print $6}')
+	sudo su -l ${PREFIJO}A$i -c "whoami > ${HOME}/validar.txt"
 done
 
-sudo su -l ${PREFIJO}P1 -c "whoami" | sudo tee -a $(pwd)/validar.txt > /dev/null
+HOME=$(cat /etc/passwd | grep ${PREFIJO}P1 | awk -F ':' '{print $6}')
+sudo su -l ${PREFIJO}P1 -c "whoami > ${HOME}/validar.txt"
