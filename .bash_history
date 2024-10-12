@@ -514,3 +514,200 @@ git commit -m "add: se agrego el archivo readme"
 git push
 cd ..
 history -a
+cp /home/vagrant/.bash_history UTNFRA_SO_1P2C_2024_Sancineto/
+ll UTNFRA_SO_1P2C_2024_Sancineto/
+cd UTNFRA_SO_1P2C_2024_Sancineto/
+git add .
+git commit -m "add: se agrego archivo history"
+git push
+logout
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_B.sh 
+cd repogit/
+ll UTNFRA_SO_1P2C_2024_Sancineto/
+tree UTNFRA_SO_1P2C_2024_Sancineto/
+cd UTNFRA_SO_1P2C_2024_Sancineto/
+git fetch
+git pull
+cat README.md 
+cd ..
+history -a
+history
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+man sudo su
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+chmod +x UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+chmod +x UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/psswd
+cat /etc/passwd
+apropos group
+groupadd --help
+apropos group
+apropos list group
+groups
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+groupadd grupo_borrar
+sudo groupadd grupo_borrar
+groups
+cat /etc/group
+groupdel grupo_borrar 
+sudo groupdel grupo_borrar 
+cat /etc/group
+sudo groupdel p1c2_2024_gAlumno
+sudo groupdel p1c2_2024_gProfesores
+cat /etc/group
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+man useradd
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+groupdel p1_c2_2024_gAlumno
+groupdel p1c2_2024_gAlumno
+sudo groupdel p1c2_2024_gAlumno
+sudo groupdel p1c2_2024_gProfesores
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+man userdel
+sudo userdel p1c2_2024_A1
+sudo userdel p1c2_2024_A2
+sudo userdel p1c2_2024_A3
+sudo userdel p1c2_2024_P1
+vim reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+chmod +x reset_punto_c.sh
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/passwd
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/passwd
+man useradd
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/passwd
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+useradd --help
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+useradd --help
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/passwd
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/passwd
+ls -l /Examenes-UTN/alumno_1
+tree /Examenes-UTN/
+ls -l /Examenes-UTN/
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+rm -r /Examenes-UTN/
+tree /Examenes-UTN/
+sudo rm -r /Examenes-UTN/
+tree /Examenes-UTN/
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo rm -r /Examenes-UTN/
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cat /etc/group
+./reset_punto_c.sh
+cat /etc/group
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+exit
+history -a
+history 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+cd repogit/
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo tree /Examenes-UTN/
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+su --help
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+man su
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo tree /Examenes-UTN/
+sudo cat /Examenes-UTN/alumno_1/validar.txt
+sudo cat /Examenes-UTN/alumno_2/validar.txt
+sudo cat /Examenes-UTN/alumno_3/validar.txt
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+man su
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo tree /Examenes-UTN/
+sudo rm -r /Examenes-UTN/
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo tree /Examenes-UTN/
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+tree
+cat validar.txt 
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+rm -r validar.txt 
+ll
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+ll
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo tree /Examenes-UTN/
+sudo cat /Examenes-UTN/alumno_1/validar.txt
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+sudo rm -r /Examenes-UTN/
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+./reset_punto_c.sh
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+./UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+sudo cat /Examenes-UTN/profesores/validar.txt
+sudo tree /Examenes-UTN/
+./reset_punto_c.sh
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+cd UTNFRA_SO_1P2C_2024_Sancineto/
+git status
+chmod -x RTA_SCRIPT_Examen_20241011/Punto_A.sh 
+chmod -x RTA_SCRIPT_Examen_20241011/Punto_C.sh 
+git add .
+git commit -m "add: punto_b falta resolver el validar.txt"
+git push
