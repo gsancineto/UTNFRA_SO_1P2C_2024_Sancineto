@@ -785,3 +785,35 @@ cd UTNFRA_SO_1P2C_2024_Sancineto/
 git add .
 history -a
 ll
+cp /home/vagrant/.bash_history ./
+ll
+cat .bash_history 
+git add. 
+git add . 
+git commit -m "fix: correccion punto_c"
+git push
+logout
+cd repogit/
+chmod -x UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/*
+ll UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/*
+cd UTNFRA_SO_1P2C_2024_Sancineto/
+git add .
+git commit -m "fix: se corrigieron los permisos en los scripts"
+git push
+ll
+cd ..
+ll
+rm -r reset_punto_c.sh 
+ll
+rm -r validar.txt 
+ll
+ls /Examenes-UTN/
+sudo rm -r /Examenes-UTN/
+logout
+cd repogit/
+vim UTNFRA_SO_1P2C_2024_Sancineto/RTA_SCRIPT_Examen_20241011/Punto_B.sh 
+cd UTNFRA_SO_1P2C_2024_Sancineto/
+tree
+git add .
+ll
+history -a

@@ -1,6 +1,6 @@
 #!/bin/bash
-DISCO_2GB= $(sudo fdisk -l | grep '2 GiB' | awk '{print $2}' | awk -F ':' '{print $1}')
-DISCO_10GB= $(sudo fdisk -l | grep '10 GiB' | awk '{print $2}' | awk -F ':' '{print $1}')
+DISCO_2GB=$(sudo fdisk -l | grep '2 GiB' | awk '{print $2}' | awk -F ':' '{print $1}')
+DISCO_10GB=$(sudo fdisk -l | grep '10 GiB' | awk '{print $2}' | awk -F ':' '{print $1}')
 
 #Agregar disco 2gb
 sudo fdisk $DISCO_2GB << EOF
